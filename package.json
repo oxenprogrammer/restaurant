@@ -4,7 +4,8 @@
   "description": "JavaScript Restaurant SPA",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write 'src/**/*.{js,ts,tsx}'"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/oxenprogrammer/restaurant/issues"
   },
-  "homepage": "https://github.com/oxenprogrammer/restaurant#readme"
+  "homepage": "https://github.com/oxenprogrammer/restaurant#readme",
+  "devDependencies": {
+    "prettier": "2.3.0"
+  }
 }
