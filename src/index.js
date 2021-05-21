@@ -1,1 +1,3 @@
-window.alert('Alert works')
+const content = document.querySelector('#content');
+
+content.textContent = 'Hello Webpack';

@@ -1,1 +1,1 @@
-window.alert("Alert works");
+document.querySelector("#content").textContent="Hello Webpack";
