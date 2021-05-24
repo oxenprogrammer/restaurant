@@ -54,3 +54,28 @@ body {
     }
   }
 }
+
+.menu {
+  display: flex;
+  padding: 1rem;
+
+  .dishes {
+    display: inherit;
+
+    @media all and (max-width: 768px) {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+
+      @media all and (max-width: 481px) {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+      }
+    }
+
+    .dish {
+      padding: 1rem;
+      border-radius: 0.2rem;
+    }
+  }
+}
