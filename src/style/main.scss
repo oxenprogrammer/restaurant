@@ -26,3 +26,13 @@ body {
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: palevioletred;
+}

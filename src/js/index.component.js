@@ -1,7 +1,12 @@
 const indexComponent = () => {
-  const element = document.createElement('h2');
-  element.textContent = 'Emanuel is Great';
-  return element;
+  const { body } = document;
+  const title = document.createElement('h1');
+  title.setAttribute('class', 'title');
+  title.textContent = 'Yummy Recipe Restaurant';
+
+  body.appendChild(title);
+
+  return body;
 };
 
 export default indexComponent;
