@@ -21,7 +21,7 @@ const headerComponent = () => {
 
   const contact = document.createElement('div');
   contact.setAttribute('class', 'link contact-link');
-  contact.textContent = 'contact';
+  contact.textContent = 'about';
 
   home.addEventListener('click', () => {
     const homeItems = document.querySelector('.home');
