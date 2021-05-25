@@ -7,11 +7,16 @@ import menuComponent from './menu.component';
 const indexComponent = () => {
   const { body } = document;
 
-  body.appendChild(headerComponent());
-  body.appendChild(menuComponent());
-  body.appendChild(homeComponent());
-  body.appendChild(aboutComponent());
-  body.appendChild(footerComponent());
+  const content = document.createElement('div');
+  content.setAttribute('id', 'content');
+
+  content.appendChild(headerComponent());
+  content.appendChild(menuComponent());
+  content.appendChild(homeComponent());
+  content.appendChild(aboutComponent());
+  content.appendChild(footerComponent());
+
+  body.appendChild(content);
 
   return body;
 };
