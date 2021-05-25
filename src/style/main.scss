@@ -32,24 +32,35 @@ body {
   position: sticky;
   top: 0;
   background-color: rgba(255, 255, 255, 0.4);
-  border-end-start-radius: 80%;
-  border-end-end-radius: 80%;
+  padding: 1rem 0;
 
-  .title {
+  .nav-links {
     display: flex;
     justify-content: center;
+    text-transform: capitalize;
     text-align: center;
     padding: 1rem;
     font-size: 2rem;
     font-weight: bold;
-    color: palevioletred;
+    color: rgb(216, 112, 147);
+
+    .link {
+      padding: 1rem;
+
+      &:hover {
+        font-size: 2.2rem;
+        color: rgb(88, 27, 48);
+        cursor: pointer;
+        text-decoration: underline rgb(88, 27, 48);
+      }
+    }
   }
 
   .logo {
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    width: 10%;
+    width: 5%;
 
     @media all and (max-width: 720px) {
       width: 20%;
