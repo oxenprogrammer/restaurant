@@ -10,8 +10,12 @@ const homeComponent = () => {
   img1.setAttribute('class', 'home-image_1');
   img1.setAttribute('src', home2);
 
-  container.appendChild(img1);
+  const h1 = document.createElement('h1');
+  h1.setAttribute('class', 'home-title');
+  h1.textContent = 'La Carne Restaurante';
 
+  container.appendChild(img1);
+  container.appendChild(h1);
   home.appendChild(container);
 
   return home;

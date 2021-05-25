@@ -33,6 +33,7 @@ body {
   top: 0;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 1rem 0;
+  z-index: 100;
 
   .nav-links {
     display: flex;
@@ -110,10 +111,36 @@ body {
 
   .container {
     img {
+      position: sticky;
+      top: 0;
       display: block;
       width: 100vw;
       height: 100vh;
       object-fit: cover;
+    }
+
+    .home-title {
+      position: relative;
+      top: -50rem;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      font-size: 8rem;
+      font-weight: bold;
+      background-color: rgba(255, 255, 255, 0.4);
+      border-radius: 1rem;
+      width: max-content;
+      padding: 1rem;
+      color: #7d9500;
+
+      @media all and (max-width: 768px) {
+        font-size: 5rem;
+
+        @media all and (max-width: 481px) {
+          font-size: 3rem;
+        }
+      }
     }
   }
 }
