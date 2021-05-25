@@ -69,7 +69,7 @@ body {
 }
 
 .menu {
-  display: flex;
+  display: none;
   padding: 1rem;
 
   .dishes {
@@ -103,4 +103,12 @@ body {
       }
     }
   }
+}
+
+.home {
+  display: flex;
+}
+
+.about {
+  display: none;
 }
