@@ -102,6 +102,27 @@ body {
           background 0.4s cubic-bezier(0.25, 0.8, 0.25, 1),
           box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
       }
+
+      .dish-name,
+      .dish-ingredients {
+        position: relative;
+        top: -20rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-self: center;
+        text-align: center;
+        color: rgb(73, 187, 98);
+        font-size: 2rem;
+      }
+
+      .dish-name {
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 3rem;
+        color: rgb(233, 33, 33);
+      }
     }
   }
 }
