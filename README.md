@@ -11,7 +11,7 @@ This is a simple HTML5, CSS3 website build with JavaScript to demonstrate;
 
 ## Live Demo
 
-Check the [live version]() of the app!
+Check the [live version](http://emanuel-okello.me/restaurant/) of the app!
 
 
 ## Getting Started
@@ -46,7 +46,7 @@ It should open the server on port 8080 on localhost
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/oxenprogrammer/restaurant/issues).
 
 ## Show your support
 
